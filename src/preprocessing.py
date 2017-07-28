@@ -2,7 +2,8 @@
 @author:Syed Shabih Hasan
 @date: July 26, 2017
 
-This file tries to reduce some of the data from the alcohol csv and produce a compressed dataset
+This file tries to reduce some of the data from the alcohol csv and produce a compressed dataset and some informative
+variables
 '''
 
 import csv
