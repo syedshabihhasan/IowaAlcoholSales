@@ -91,7 +91,7 @@ def read_and_format_csv(filename, new_filename, variable_filename):
                 csv_writer.writerows(data_holder)
             data_holder = []
             i = 0
-
+    # if something was left, write that
     with open(new_filename, "a") as f_write:
         csv_writer = csv.writer(f_write)
         csv_writer.writerows(data_holder)
