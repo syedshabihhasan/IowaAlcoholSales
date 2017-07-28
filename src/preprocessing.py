@@ -53,6 +53,7 @@ def remove_fields(data_line):
 
 
 def read_and_format_csv(filename, new_filename, variable_filename):
+    # the master dictionary for later use
     all_dict = {'store': {}, 'county': {}, 'category': {}, 'vendor': {}, 'item': {}, 'address': {}}
     f_read = open(filename, "r")
     csv_reader = csv.reader(f_read)
